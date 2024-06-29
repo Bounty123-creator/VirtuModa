@@ -1,5 +1,6 @@
 import Replicate from "replicate";
 
+export const maxDuration = 60
 const replicate = new Replicate();
 
 export async function POST(request: Request) {

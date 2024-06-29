@@ -9,8 +9,6 @@ export async function POST(request: Request) {
 
         const garm_img = formdata.get("garm_img")
         const human_img = formdata.get("human_img")
-
-        console.log(garm_img, human_img)
     
         const input = {
             garm_img: garm_img,

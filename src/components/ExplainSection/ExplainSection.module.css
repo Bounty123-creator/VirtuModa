@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+
+.explain_block {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    min-width: 15rem;
+    min-height: 17rem;
+    height: fit-content;
+    border-radius: 1rem;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--color-secondary-background);
+}
+
+.explain_icon {
+    position: relative;
+    height: 1.5rem;
+    top: -3.5rem;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+}

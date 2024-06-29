@@ -1,0 +1,28 @@
+.footer {
+  background-color: transparent;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-top: 7rem;
+}
+
+.footer_link {
+  background: linear-gradient(
+    45deg,
+    var(--clr-accent),
+    var(--clr-accent2)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer_text {
+  font-size: large;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

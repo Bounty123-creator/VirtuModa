@@ -14,7 +14,7 @@ export default function SocialProof() {
   return (
     <>
       <div className={styles.container}>
-        <h1>Unsere Kundenrezensionen  </h1>
+        <h2>Unsere Kundenrezensionen</h2>
         <Carousel></Carousel>
       </div>
     </>

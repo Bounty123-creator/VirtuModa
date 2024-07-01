@@ -8,6 +8,8 @@
     margin-bottom: 0rem;
 
     background: transparent;
+
+    text-wrap: wrap;
 }
 
 .swiper {

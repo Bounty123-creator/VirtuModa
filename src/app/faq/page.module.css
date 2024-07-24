@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    gap: 3rem;
+}
+
+.indent {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.mainList {
+    width: 60%;
+}
+

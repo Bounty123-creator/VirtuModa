@@ -2,9 +2,45 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
     height: fit-content;
     min-height: 100vh;
-    gap: 3rem;
+    gap: 1rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.postsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    padding: 3rem;
+    text-align: left;
+}
+
+.post {
+    width: 20rem;
+    min-height: 25rem;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.postImage {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.postText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

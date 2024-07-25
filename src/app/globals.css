@@ -3,6 +3,7 @@
   --color-secondary-background: #07070e;
   --color-accent: #6320EE;
   --color-contrast: #F3F9D2;
+  --color-secondary-contrast: #f3f9d285;
 
   --padding-x: 0 15rem;
 
@@ -44,9 +45,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -102,7 +101,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h3 {
@@ -113,6 +112,15 @@ h3 {
 h4 {
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+small {
+  color: var(--color-secondary-contrast);
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .embla {
